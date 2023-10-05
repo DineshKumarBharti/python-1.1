@@ -122,9 +122,9 @@ this is outside value : 700
 '''
 
 class Calculator:
-    b=20
-    p=500
-    z=200
+    a=20
+    b=500
+    c=200
     def add(self):
         # self.a=10
         print("this is a add of",self.b )
@@ -132,8 +132,8 @@ class Calculator:
         print("this is a 2nd value",self.b)
 
 obj=Calculator()
-obj.b=100
+obj.a=100
 obj.add()
 obj.run()
-print(obj.p)
-print(obj.z)
+print(obj.b)
+print(obj.c)
