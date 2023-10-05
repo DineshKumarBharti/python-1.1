@@ -122,18 +122,20 @@ this is outside value : 700
 '''
 
 class Calculator:
-    a=20
-    b=500
+    __a=20   # private __ double uderscope no access
+    _b=500   # pubic   _ single underscope access anywhare
     c=200
     def add(self):
         # self.a=10
-        print("this is a add of",self.b )
+        print("this is a 1st add of",self._b )
     def run(self):
-        print("this is a 2nd value",self.b)
+        print("this is a 2nd value",self.__a)
+        print("this is a 3nd value",self._b)
+        print("this is a 4nd value",self.c)
 
 obj=Calculator()
-obj.a=100
 obj.add()
+obj.__a=100
 obj.run()
-print(obj.b)
+print(obj._b)
 print(obj.c)
