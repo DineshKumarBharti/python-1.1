@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    color: #fff;
+    display: flex;
+    padding: 30px 100px;
+    height: 100px;
+    background: red;
+    justify-content: space-between;
+}

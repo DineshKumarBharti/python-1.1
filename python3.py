@@ -27,6 +27,7 @@ rakes.getdetails()
 # Monthaly salary is: 23000
 
 '''
+'''
 class Employee():
     def __init__(self):
         print("Constructor called.")
@@ -48,6 +49,7 @@ john.ename="jeet"
 john.esal=40000
 john.getdetails()
 
+'''
 # ID: 1
 # NAME: sanjeet
 # SALARY: 30000
