@@ -139,3 +139,11 @@ obj.__a=100
 obj.run()
 print(obj._b)
 print(obj.c)
+
+# output :-
+# this is a 1st add of 500
+# this is a 2nd value 20
+# this is a 3nd value 500
+# this is a 4nd value 200
+# 500
+# 200
